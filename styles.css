@@ -1,0 +1,88 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #efefef;
+}
+
+.title {
+	text-align: center;
+	margin: 50px;
+}
+
+.under-line {
+	width: 60px;
+	height: 5px;
+	margin: auto;
+	background-color: #0077cc;
+}
+
+
+.review {
+	box-shadow: 0 0 6px grey;
+	margin: auto;
+	text-align: center;
+	background-color: #fff;
+	width: 500px;
+}
+
+.img-container{
+	padding-top: 50px;
+	background-color: ;
+	text-align: center;
+}
+
+.img-container img {
+	width: 150px;
+	height: 150px;
+}
+
+#person-img {
+	border-radius: 50%;
+	box-shadow: 10px -6px 0 #0077cc;
+}
+
+#author {
+	text-align: center;
+}
+
+#job {
+	text-align: center;
+	color: #0077cc;
+}
+
+#info{
+	text-align: center;
+	padding: 10px;
+}
+
+.button-container {
+	padding: 2px;
+}
+
+.prev-btn,.next-btn{
+	font-size: 20px;
+	color: #0077cc;
+	padding: 10px;
+	background-color: transparent;
+	border: none;
+	background-color: aqua;
+}
+
+.prev-btn:hover,.next-btn:hover{
+	cursor: pointer;
+}
+
+.random-btn{
+	color: #000;
+	background-color: #0077cc;
+	border: none;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 8px;
+}
+
+.random-btn:hover{
+	cursor: pointer;
+}
